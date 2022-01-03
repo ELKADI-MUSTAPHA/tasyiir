@@ -3,10 +3,13 @@
     --mainColor: #3a8674;
     --whiteColor: #fff
 }
-
+html{
+    overflow-x: hidden;
+}
 body {
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
     font-family: poppins;
     background-color: #184e77;
     background-image: -webkit-linear-gradient(top, #184e77, #14466c, #103e62, #0c3657, #082f4d);
@@ -1220,9 +1223,22 @@ section {
     .navbar-nav .nav-link {
         display: block !important;
     }
-    
+    .aboutus .text h1{
+        font-size: 40px;
+    }
+    .aboutus .text{
+        width: 90%;
+    }
+    .pricing-styles.pricing-styles-style3 .row .col-md-4 {
+        padding: 0;
+    }
 }
-
+@media only screen and (max-width: 500px) {
+    .portfolio-details .portfo-list .col-md-3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
 
 .footer .rights,
 .footer .rights-s {
